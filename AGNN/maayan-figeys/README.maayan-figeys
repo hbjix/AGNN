@@ -1,0 +1,96 @@
+Human proteins (Figeys) network, part of the Koblenz Network Collection
+===========================================================================
+
+This directory contains the TSV and related files of the maayan-figeys network: This is a network of interactions between proteins in Humans (<i>Homo sapiens</i>), from the first large-scale study of protein–protein interactions in Human cells using a mass spectrometry-based approach.
+
+
+More information about the network is provided here: 
+http://konect.cc/networks/maayan-figeys
+
+Files: 
+    meta.maayan-figeys -- Metadata about the network 
+    out.maayan-figeys -- The adjacency matrix of the network in whitespace-separated values format, with one edge per line
+      The meaning of the columns in out.maayan-figeys are: 
+        First column: ID of from node 
+        Second column: ID of to node
+        Third column (if present): weight or multiplicity of edge
+        Fourth column (if present):  timestamp of edges Unix time
+
+
+Use the following References for citation:
+
+@MISC{konect:2017:maayan-figeys,
+    title = {Human proteins (Figeys) network dataset -- {KONECT}},
+    month = oct,
+    year = {2017},
+    url = {http://konect.cc/networks/maayan-figeys}
+}
+
+@article{konect:figeys,
+	author = {Ewing, Rob M. and Chu, Peter and Elisma, Fred and Li,
+                  Hongyan and Taylor, Paul and Climie, Shane and
+                  McBroom-Cerajewski, Linda and Robinson, Mark D. and
+                  O'Connor, Liam and Li, Michael and Taylor, Rod and
+                  Dharsee, Moyez and Ho, Yuen and Heilbut, Adrian and
+                  Moore, Lynda and Zhang, Shudong and Ornatsky, Olga and
+                  Bukhman, Yury V. and Ethier, Martin and Sheng, Yinglun
+                  and Vasilescu, Julian and Abu-Farha, Mohamed and
+                  Lambert, Jean-Philippe P. and Duewel, Henry S. and
+                  Stewart, Ian I. and Kuehl, Bonnie and Hogue, Kelly and
+                  Colwill, Karen and Gladwish, Katharine and Muskat,
+                  Brenda and Kinach, Robert and Adams, Sally-Lin L. and
+                  Moran, Michael F. and Morin, Gregg B. and Topaloglou,
+                  Thodoros and Figeys, Daniel}, 
+	journal = {Molecular Systems Biol.},
+	title = {Large-scale Mapping of Human Protein--Protein Interactions by Mass Spectrometry},
+	volume = {3},
+	year = {2007},
+}
+
+@article{konect:figeys,
+	author = {Ewing, Rob M. and Chu, Peter and Elisma, Fred and Li,
+                  Hongyan and Taylor, Paul and Climie, Shane and
+                  McBroom-Cerajewski, Linda and Robinson, Mark D. and
+                  O'Connor, Liam and Li, Michael and Taylor, Rod and
+                  Dharsee, Moyez and Ho, Yuen and Heilbut, Adrian and
+                  Moore, Lynda and Zhang, Shudong and Ornatsky, Olga and
+                  Bukhman, Yury V. and Ethier, Martin and Sheng, Yinglun
+                  and Vasilescu, Julian and Abu-Farha, Mohamed and
+                  Lambert, Jean-Philippe P. and Duewel, Henry S. and
+                  Stewart, Ian I. and Kuehl, Bonnie and Hogue, Kelly and
+                  Colwill, Karen and Gladwish, Katharine and Muskat,
+                  Brenda and Kinach, Robert and Adams, Sally-Lin L. and
+                  Moran, Michael F. and Morin, Gregg B. and Topaloglou,
+                  Thodoros and Figeys, Daniel}, 
+	journal = {Molecular Systems Biol.},
+	title = {Large-scale Mapping of Human Protein--Protein Interactions by Mass Spectrometry},
+	volume = {3},
+	year = {2007},
+}
+
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://dl.acm.org/citation.cfm?id=2488173},
+	url_presentation = {https://www.slideshare.net/kunegis/presentationwow},
+	url_web = {http://konect.cc/},
+	url_citations = {https://scholar.google.com/scholar?cites=7174338004474749050},
+}
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://dl.acm.org/citation.cfm?id=2488173},
+	url_presentation = {https://www.slideshare.net/kunegis/presentationwow},
+	url_web = {http://konect.cc/},
+	url_citations = {https://scholar.google.com/scholar?cites=7174338004474749050},
+}
+
+
